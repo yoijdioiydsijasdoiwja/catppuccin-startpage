@@ -25,7 +25,7 @@ const default_config = {
             {
               name: "monkeytype",
               url: "https://monkeytype.com",
-              icon: "IconKeyboard",
+              icon: "keyboard",
               icon_color: palette.green,
             },
             {
