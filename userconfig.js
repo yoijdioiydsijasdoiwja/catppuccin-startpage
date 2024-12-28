@@ -23,9 +23,9 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "monkeytype",
+              url: "https://monkeytype.com",
+              icon: "IconKeyboard",
               icon_color: palette.green,
             },
             {
