@@ -1,15 +1,15 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = frappe;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Berlin",
     scale: "C",
   },
   clock: {
     format: "h:i p",
-    iconColor: palette.maroon,
+    iconColor: palette.mauve,
   },
   disabled: [],
   fastlink: "https://app.raindrop.io",
@@ -66,23 +66,23 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "pirated stuff",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "FMHY",
+              url: "https://fmhy.pages.dev",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "rutracker",
+              url: "https://rutracker.org",
               icon: "badge-filled",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
+              name: "Steamrip",
+              url: "https://steamrip.com",
               icon: "border-radius",
               icon_color: palette.red,
             },
@@ -162,14 +162,14 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
+              name: "Python",
+              url: "https://awesome-python.com/",
               icon: "brand-prisma",
               icon_color: palette.green,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
+              name: "Python Cheatsheet",
+              url: "https://gto76.github.io/python-cheatsheet/",
               icon: "brand-redhat",
               icon_color: palette.peach,
             },
