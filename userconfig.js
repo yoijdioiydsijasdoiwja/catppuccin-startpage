@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = mocha;
+const palette = macchiato;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Chemnitz",
+    location: "London",
     scale: "C",
   },
   clock: {
@@ -65,6 +65,43 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "media",
+          links: [
+            {
+              name: "уп",
+              url: "https://www.pravda.com.ua",
+              icon: "news",
+              icon_color: palette.green,
+            },
+            {
+              name: "mil.in.ua",
+              url: "https://mil.in.ua",
+              icon: "badge-filled",
+              icon_color: palette.peach,
+            },
+            {
+              name: "куток",
+              url: "https://kutok.io",
+              icon: "border-radius",
+              icon_color: palette.red,
+            },
+            {
+              name: "ґрунт",
+              url: "https://grnt.media",
+              icon: "eye-bolt",
+              icon_color: palette.blue,
+            },
+            {
+              name: "village",
+              url: "https://www.village.com.ua",
+              icon: "home-2",
+              icon_color: palette.mauve,
+            },
+          ],
+        },
+      ],
+    },
     {
       name: "dev",
       background_url: "src/img/banners/cbg-8.gif",
